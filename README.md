@@ -12,3 +12,7 @@ Step 4 : Inside loop check for the condition arr[0] is less than min value if ye
 Step 5 : Update min value with arr[index]
 Step 6 : After reaching last index of array exit from for loop 
 Step 7 : Print min value 
+
+Maximum value problem : Same like min max value also find much difference only the oerator changed to less than to greater than 
+
+Minmax : combined both problems and used one loop and found min and max value 
