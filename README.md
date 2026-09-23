@@ -386,32 +386,3 @@ Step 11 : If secondsmallest is Integer.MAX_VALUE,
 print "No second smallest value in given array"
 
 Step 12 : Otherwise, print the secondsmallest value
-
-Start
-↓
-smallest = Integer.MAX_VALUE
-secondsmallest = Integer.MAX_VALUE
-↓
-Start loop
-↓
-Is arr[i] < smallest?
-/ \
- Yes No
-↓ ↓
-secondsmallest Is arr[i] < secondsmallest
-= smallest AND arr[i] != smallest?
-↓ / \
-smallest = arr[i] Yes No
-↓ ↓
-secondsmallest Continue
-= arr[i]
-↓
-Continue loop
-↓
-End of loop
-↓
-Is secondsmallest == Integer.MAX_VALUE?
-/ \
- Yes No
-↓ ↓
-No second smallest Print second smallest
