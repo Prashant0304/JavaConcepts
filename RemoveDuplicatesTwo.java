@@ -2,7 +2,7 @@ class RemoveDuplicatesTwo{
 	public static void main(String args[]){
 		int arr[]={1,2,2,3,4,4,5,5,5};
 		int slow=0;
-		for(int fast =slow+1;fast<arr.length;fast++){
+		for(int fast=1;fast<arr.length;fast++){
 			if(arr[slow]!=arr[fast]){
 				slow++;
 				arr[slow]=arr[fast];
